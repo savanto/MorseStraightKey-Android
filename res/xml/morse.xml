@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Morse keybord layout. -->
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyWidth="10%p"
+    android:keyHeight="@dimen/key_height" >
+
+	<Row android:keyHeight="@dimen/morse_key_height">
+		<Key android:codes="-1"
+			android:keyIcon="@drawable/key_shifted" 
+			android:keyWidth="30%p" 
+			android:keyEdgeFlags="left" 
+			android:isModifier="true" 
+			android:isSticky="true" />
+
+		<Key android:codes="-10" 
+		    android:keyLabel="SIGNAL" 
+		    android:keyWidth="40%" />
+
+		<Key android:codes="-5" 
+		    android:keyIcon="@drawable/key_delete" 
+		    android:keyWidth="30%p"
+			android:keyEdgeFlags="right" 
+			android:isRepeatable="true" />
+	</Row>
+
+	<Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-100" 
+            android:keyIcon="@drawable/key_settings" 
+            android:keyWidth="10%p" />
+
+        <Key android:codes="-101" 
+            android:keyIcon="@drawable/key_help"
+            android:keyWidth="20%p" />
+        
+        <Key android:codes="32" 
+            android:keyLabel="GAP" 
+            android:keyWidth="40%p" 
+            android:isRepeatable="false" />
+
+        <Key android:codes="10" 
+            android:keyIcon="@drawable/key_enter" 
+            android:keyWidth="30%p" 
+            android:keyEdgeFlags="right" />
+
+    </Row>
+
+</Keyboard>
