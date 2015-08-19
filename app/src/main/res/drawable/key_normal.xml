@@ -2,5 +2,5 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <stroke android:color="@color/key_border" android:width="@dimen/key_border" />
     <corners android:radius="@dimen/key_radius" />
-	<solid android:color="@color/key_normal" />
-</shape> 
+    <solid android:color="@color/key_normal" />
+</shape>

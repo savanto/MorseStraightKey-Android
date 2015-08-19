@@ -1,373 +1,376 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android">
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:baselineAligned="false" >
-
-	<LinearLayout
-	    android:layout_width="wrap_content"
-	    android:layout_height="match_parent"
-	    android:orientation="vertical"
-	    android:layout_weight="1" >
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_a" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_b" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_c" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_d" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_e" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_f" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_g" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_h" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_i" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_j" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_k" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_l" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_m" />
-
-	</LinearLayout>
-
-	<LinearLayout
-	    android:layout_width="wrap_content"
-	    android:layout_height="match_parent"
-	    android:orientation="vertical"
-	    android:layout_weight="1" >
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_n" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_o" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_p" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_q" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_r" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_s" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_t" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_u" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_v" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_w" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_x" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_y" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_z" />
-
-	</LinearLayout>
-
-	<LinearLayout
-	    android:layout_width="wrap_content"
-	    android:layout_height="match_parent"
-	    android:orientation="vertical"
-	    android:layout_weight="1" >
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_0" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_1" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_2" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_3" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_4" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_5" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_6" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_7" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_8" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_9" />
-
-	</LinearLayout>
-
-	<LinearLayout
-	    android:layout_width="wrap_content"
-	    android:layout_height="match_parent"
-	    android:orientation="vertical"
-	    android:layout_weight="1" >
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_period" />
-
-		<TextView
-			android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_comma" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_question" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_quote" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_exclamation" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_slash" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_parenthesis_open" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_parenthesis_close" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_ampersand" />
-
-	</LinearLayout>
-
-	<LinearLayout
-	    android:layout_width="wrap_content"
-	    android:layout_height="match_parent"
-	    android:orientation="vertical"
-	    android:layout_weight="1" >
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_colon" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_semicolon" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_equals" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_plus" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_minus" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_underscore" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_double_quote" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_dollar" />
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:textSize="@dimen/reference_font_size"
-			android:text="@string/morse_code_at" />
-
-	</LinearLayout>
-</LinearLayout>
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_a"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_b"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_c"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_d"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_e"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_f"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_g"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_h"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_i"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_j"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_k"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_l"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_m"
+                android:textSize="@dimen/reference_font_size"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_n"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_o"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_p"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_q"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_r"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_s"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_t"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_u"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_v"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_w"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_x"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_y"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_z"
+                android:textSize="@dimen/reference_font_size"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_0"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_1"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_2"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_3"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_4"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_5"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_6"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_7"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_8"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_9"
+                android:textSize="@dimen/reference_font_size"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_period"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_comma"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_question"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_quote"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_exclamation"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_slash"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_parenthesis_open"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_parenthesis_close"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_ampersand"
+                android:textSize="@dimen/reference_font_size"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_colon"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_semicolon"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_equals"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_plus"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_minus"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_underscore"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_double_quote"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_dollar"
+                android:textSize="@dimen/reference_font_size"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/morse_code_at"
+                android:textSize="@dimen/reference_font_size"
+                />
+        </LinearLayout>
+    </LinearLayout>
 </ScrollView>

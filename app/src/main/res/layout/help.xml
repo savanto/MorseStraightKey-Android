@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-	    android:layout_width="match_parent"
-	    android:layout_height="match_parent">
-
-	<LinearLayout 
-	    android:layout_width="match_parent"
-	    android:layout_height="wrap_content"
-	    android:orientation="vertical" >
-	
-	    <TextView
-	        android:id="@+id/text_info"
-	        android:layout_width="match_parent"
-	 		android:layout_height="match_parent"
-	 		android:textSize="@dimen/help_font_size"
-	 		android:text="@string/text_info" />
-
-	    <View
-	        android:layout_width="match_parent"
-	        android:layout_height="@dimen/hr_width"
-	        android:background="@color/hr_color" />
-
-		<TextView
-	        android:id="@+id/text_practice_mode"
-	        android:layout_width="match_parent"
-	 		android:layout_height="match_parent"
-	 		android:textSize="@dimen/help_font_size"
-	 		android:text="@string/text_practice_mode" />
-	
-	    <View
-	        android:layout_width="match_parent"
-	        android:layout_height="@dimen/hr_width"
-	        android:background="@color/hr_color" />
-
-		<TextView
-	        android:id="@+id/text_realistic_mode"
-	        android:layout_width="match_parent"
-	 		android:layout_height="match_parent"
-	 		android:textSize="@dimen/help_font_size"
-	 		android:text="@string/text_realistic_mode" />
-	
-	    <View
-	        android:layout_width="match_parent"
-	        android:layout_height="@dimen/hr_width"
-	        android:background="@color/hr_color" />
-
-		<TextView
-	        android:id="@+id/text_urecognized"
-	        android:layout_width="match_parent"
-	 		android:layout_height="match_parent"
-	 		android:textSize="@dimen/help_font_size"
-	 		android:text="@string/text_unrecognized" />
-	
-	</LinearLayout>
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/text_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/text_info"
+            android:textSize="@dimen/help_font_size"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hr_width"
+            android:background="@color/hr_color"
+            />
+        <TextView
+            android:id="@+id/text_practice_mode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/text_practice_mode"
+            android:textSize="@dimen/help_font_size"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hr_width"
+            android:background="@color/hr_color"
+            />
+        <TextView
+            android:id="@+id/text_realistic_mode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/text_realistic_mode"
+            android:textSize="@dimen/help_font_size"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hr_width"
+            android:background="@color/hr_color"
+            />
+        <TextView
+            android:id="@+id/text_urecognized"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/text_unrecognized"
+            android:textSize="@dimen/help_font_size"
+            />
+    </LinearLayout>
 </ScrollView>
