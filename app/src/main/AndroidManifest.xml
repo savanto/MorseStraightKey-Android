@@ -4,51 +4,46 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-    <uses-sdk
-        android:minSdkVersion="8"
-        android:targetSdkVersion="17" />
-
     <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/icon"
         android:label="@string/ime_label"
-		android:theme="@style/AppTheme" >
-
+        android:theme="@style/AppTheme"
+        >
         <service
             android:name="com.savanto.morsekeyboard.MorseKeyboardInputMethodService"
             android:permission="android.permission.BIND_INPUT_METHOD"
-            android:icon="@drawable/icon">
-
+            android:icon="@drawable/icon"
+            >
             <intent-filter>
                 <action android:name="android.view.InputMethod" />
             </intent-filter>
-            <meta-data 
-                android:name="android.view.im" 
-                android:resource="@xml/method" />
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/method"
+                />
         </service>
 
         <activity
             android:name="com.savanto.morsekeyboard.MorseKeyboardSettings"
             android:label="@string/settings_label"
-	        android:icon="@drawable/icon">
-
+            android:icon="@drawable/icon"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
 
-		<activity
-		    android:name="com.savanto.morsekeyboard.MorseKeyboardHelp"
-		    android:label="@string/help_activity_title">
-
-		    <intent-filter>
-		        <action android:name="com.savanto.morsekeyboard.MorseKeyboardHelp" />
-		        <category android:name="android.intent.category.DEFAULT" />
-		    </intent-filter>
-		</activity>
-
-	</application>
-
+        <activity
+            android:name="com.savanto.morsekeyboard.MorseKeyboardHelp"
+            android:label="@string/help_activity_title"
+            >
+            <intent-filter>
+                <action android:name="com.savanto.morsekeyboard.MorseKeyboardHelp" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
 </manifest>
