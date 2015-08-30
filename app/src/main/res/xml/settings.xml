@@ -1,0 +1,91 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:morsekeyboard="http://schemas.android.com/apk/res/com.savanto.morsekeyboard"
+    >
+    <PreferenceCategory android:title="@string/pref_category_title_general">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pref_key_autoshift"
+            android:persistent="true"
+            android:summary="@string/pref_summary_autoshift"
+            android:title="@string/pref_title_autoshift"
+            />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pref_key_autocaps"
+            android:persistent="true"
+            android:summary="@string/pref_summary_autocaps"
+            android:title="@string/pref_title_autocaps"
+            />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pref_key_vibrate"
+            android:persistent="true"
+            android:summary="@string/pref_summary_vibrate"
+            android:title="@string/pref_title_vibrate"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_title_realistic">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pref_key_realistic"
+            android:persistent="true"
+            android:summaryOff="@string/pref_summaryOff_realistic"
+            android:summaryOn="@string/pref_summaryOn_realistic"
+            android:title="@string/pref_title_realistic"
+            />
+    <!-- Dah duration popup dialog with seekbar -->
+        <com.savanto.morsekeyboard.SeekBarPreference
+            android:defaultValue="300"
+            android:dependency="@string/pref_key_realistic"
+            android:dialogMessage="@string/pref_dialogMessage_dah"
+            android:dialogTitle="@string/pref_dialogTitle_dah"
+            android:key="@string/pref_key_dah"
+            android:numeric="integer"
+            android:persistent="true"
+            android:title="@string/pref_title_dah"
+            morsekeyboard:maxValue="1500"
+            morsekeyboard:minValue="60"
+            morsekeyboard:units="@string/pref_units_dah"
+            />
+    <!-- Short gap duration popup dialog with seekbar -->
+        <com.savanto.morsekeyboard.SeekBarPreference
+            android:defaultValue="3"
+            android:dependency="@string/pref_key_realistic"
+            android:dialogMessage="@string/pref_dialogMessage_short_gap"
+            android:dialogTitle="@string/pref_dialogTitle_short_gap"
+            android:key="@string/pref_key_short_gap"
+            android:numeric="integer"
+            android:persistent="true"
+            android:title="@string/pref_title_short_gap"
+            morsekeyboard:maxValue="7"
+            morsekeyboard:minValue="2"
+            morsekeyboard:units="@string/pref_units_short_gap"
+            />
+    <!-- Medium gap duration popup dialog with seekbar -->
+        <com.savanto.morsekeyboard.SeekBarPreference
+            android:defaultValue="7"
+            android:dependency="@string/pref_key_realistic"
+            android:dialogMessage="@string/pref_dialogMessage_medium_gap"
+            android:dialogTitle="@string/pref_dialogTitle_medium_gap"
+            android:key="@string/pref_key_medium_gap"
+            android:numeric="integer"
+            android:persistent="true"
+            android:title="@string/pref_title_medium_gap"
+            morsekeyboard:maxValue="15"
+            morsekeyboard:minValue="4"
+            morsekeyboard:units="@string/pref_units_medium_gap"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_title_help">
+        <PreferenceScreen
+            android:key="@string/pref_key_help"
+            android:persistent="false"
+            android:title="@string/pref_title_help"
+            >
+            <intent android:action="com.savanto.morsekeyboard.MorseKeyboardHelp"/>
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

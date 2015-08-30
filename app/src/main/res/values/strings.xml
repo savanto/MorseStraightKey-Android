@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ime_label">Morse Straight Key</string>
+
+    <string name="error_morse_length_exceeded">Morse code exceeds maximum length.</string>
+    <string name="error_morse_not_recognized">Morse code not recognized.</string>
+
+    <string name="reference_title">Morse Code Reference</string>
+
+    <string name="morse_code_a">A .-</string>
+    <string name="morse_code_b">B -...</string>
+    <string name="morse_code_c">C -.-.</string>
+    <string name="morse_code_d">D -..</string>
+    <string name="morse_code_e">E .</string>
+    <string name="morse_code_f">F ..-.</string>
+    <string name="morse_code_g">G --.</string>
+    <string name="morse_code_h">H ....</string>
+    <string name="morse_code_i">I ..</string>
+    <string name="morse_code_j">J .---</string>
+    <string name="morse_code_k">K -.-</string>
+    <string name="morse_code_l">L .-..</string>
+    <string name="morse_code_m">M --</string>
+    <string name="morse_code_n">N -.</string>
+    <string name="morse_code_o">O ---</string>
+    <string name="morse_code_p">P .--.</string>
+    <string name="morse_code_q">Q --.-</string>
+    <string name="morse_code_r">R .-.</string>
+    <string name="morse_code_s">S ...</string>
+    <string name="morse_code_t">T -</string>
+    <string name="morse_code_u">U ..-</string>
+    <string name="morse_code_v">V ...-</string>
+    <string name="morse_code_w">W .--</string>
+    <string name="morse_code_x">X -..-</string>
+    <string name="morse_code_y">Y -.--</string>
+    <string name="morse_code_z">Z --..</string>
+
+    <string name="morse_code_0">0 -----</string>
+    <string name="morse_code_1">1 .----</string>
+    <string name="morse_code_2">2 ..---</string>
+    <string name="morse_code_3">3 ...--</string>
+    <string name="morse_code_4">4 ....-</string>
+    <string name="morse_code_5">5 .....</string>
+    <string name="morse_code_6">6 -....</string>
+    <string name="morse_code_7">7 --...</string>
+    <string name="morse_code_8">8 ---..</string>
+    <string name="morse_code_9">9 ----.</string>
+
+    <string name="morse_code_period">. .-.-.-</string>
+    <string name="morse_code_comma">, --..--</string>
+    <string name="morse_code_question">\? ..--..</string>
+    <string name="morse_code_quote">\' .----.</string>
+    <string name="morse_code_exclamation">! -.-.--</string>
+    <string name="morse_code_slash">/ -..-.</string>
+    <string name="morse_code_parenthesis_open">( -.--.</string>
+    <string name="morse_code_parenthesis_close">) -.--.-</string>
+    <string name="morse_code_ampersand">&amp; .-...</string>
+    <string name="morse_code_colon">: ---...</string>
+    <string name="morse_code_semicolon">; -.-.-.</string>
+    <string name="morse_code_equals">= -...-</string>
+    <string name="morse_code_plus">+ .-.-.</string>
+    <string name="morse_code_minus">- -....-</string>
+    <string name="morse_code_underscore">_ ..--.-</string>
+    <string name="morse_code_double_quote">\" .-..-.</string>
+    <string name="morse_code_dollar">$ ...-..-</string>
+    <string name="morse_code_at">\@ .--.-.</string>
+
+    <string name="help_activity_title">Morse Straight Key Help</string>
+    <string name="text_info">Morse code is a system for transmitting information using only two characters,
+        the . (dot) and the - (dash). These characters were originally formed with short and long electrical pulses
+        in telegraph wires. Each letter to be transmitted was composed of a series of dots and dashes with gaps in between.
+        There are two modes available in this keyboard.
+    </string>
+    <string name="text_practice_mode">Practice Mode:
+        \nTap the SIGNAL button to transmit a dit, or long-press to transmit a dah.
+        Tap the GAP button to transmit a "short gap", completing the letter, or long-press
+        to transmit a "medium gap", completing a word.
+    </string>
+    <string name="text_realistic_mode">Realistic Mode (straight key):
+        \nTap the SIGNAL button quickly to transmit a dit, or long-press to transmit a dah.
+        The timing at which a dit becomes a dah can be adjusted in the settings.
+        As soon as you start transmitting, the keyboard will begin timing the gaps for you,
+        and will insert short and medium gaps automatically. The timing for short and medium
+        gaps can be adjusted in the settings.
+        \nRedacting your composition, or inserting a gap or new line manually will stop the timer
+        until you begin transmitting again.
+        \nIf you are having trouble with the timing, set your gaps to maximum, then slowly increase
+        the dah threshold until you are able to transmit comfortably. Then, scale back the
+        gap durations slowly until both character and word speed are to your liking.
+    </string>
+    <string name="text_unrecognized">Note: if you compose a Morse character that cannot
+        be recognized by the keyboard, it will be unable to convert it into its equivalent.
+        You can use the delete key to modify your composition.
+    </string>
+
+    <string name="subtype_default">International Morse Code</string>
+
+    <!-- Strings related to Settings -->
+    <string name="settings_label">Morse Straight Key Settings</string>
+
+    <!-- General settings -->
+    <string name="pref_category_title_general">General</string>
+
+    <string name="pref_key_autoshift">pref_key_autoshift</string>
+    <string name="pref_title_autoshift">Start shifted</string>
+    <string name="pref_summary_autoshift">Start shifted when keyboard first opens.</string>
+
+    <string name="pref_key_autocaps">pref_key_autocaps</string>
+    <string name="pref_title_autocaps">Start caps locked</string>
+    <string name="pref_summary_autocaps">Start with caps locked when keyboard first opens.</string>
+
+    <string name="pref_key_vibrate">pref_key_vibrate</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="pref_summary_vibrate">Vibrate keyed signal.</string>
+
+    <!-- Realistic mode settings -->
+    <string name="pref_category_title_realistic">Realistic Mode</string>
+
+    <string name="pref_key_realistic">pref_key_realistic</string>
+    <string name="pref_title_realistic">Realistic Mode</string>
+    <string name="pref_summaryOn_realistic">Signals and gaps from timing.</string>
+    <string name="pref_summaryOff_realistic">Signals from tap/long-press, manual gaps.</string>
+
+    <string name="pref_title_dit">Dit threshold</string>
+    <string name="pref_units_dit">\u0020ms</string>
+    <string name="pref_key_dit">pref_key_dit</string>
+    <string name="pref_dialogTitle_dit">Dit threshold</string>
+    <string name="pref_dialogMessage_dit">Threshold for a single dit. Keying a signal
+        for less than this value will not register. Better to keep this at zero, unless
+        you wish to fine-tune your speed.
+    </string>
+
+    <string name="pref_key_calculated_dit">pref_key_calculated_dit</string>
+    <string name="pref_title_calculated_dit">Dit duration (calculated from dah)</string>
+
+    <string name="pref_title_dah">Dah threshold</string>
+    <string name="pref_units_dah">\u0020ms</string>
+    <string name="pref_key_dah">pref_key_dah</string>
+    <string name="pref_dialogTitle_dah">Dah threshold</string>
+    <string name="pref_dialogMessage_dah">Threshold for a single dah. Keying a signal
+        for less than this value will register as a dit. You can change this to customize
+        your character speed. Note: your target dit duration will be set to one-third of
+        this value and used for gap duration calculations.
+    </string>
+
+    <string name="pref_title_short_gap">Short gap duration</string>
+    <string name="pref_units_short_gap">\u0020dits</string>
+    <string name="pref_key_short_gap">pref_key_short_gap</string>
+    <string name="pref_dialogTitle_short_gap">Short gap duration</string>
+    <string name="pref_dialogMessage_short_gap">Gap between letters. Short gaps are
+        generally the length of three dits. You can change this to customize your
+        character speed.
+    </string>
+
+    <string name="pref_title_medium_gap">Medium gap duration</string>
+    <string name="pref_units_medium_gap">\u0020dits</string>
+    <string name="pref_key_medium_gap">pref_key_medium_gap</string>
+    <string name="pref_dialogTitle_medium_gap">Medium gap duration</string>
+    <string name="pref_dialogMessage_medium_gap">Gap between words. Medium gaps are
+        generally the length of seven dits. You can change this to customize your
+        word speed.
+    </string>
+
+    <!-- Help settings -->
+    <string name="pref_category_title_help">Help</string>
+    <string name="pref_key_help">pref_key_help</string>
+    <string name="pref_title_help">Help</string>
+</resources>

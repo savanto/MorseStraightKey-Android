@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="key_border">#ff000000</color>
+
+    <color name="morse_background">#ffffffff</color>
+    <color name="morse_text">#ff000000</color>
+
+    <color name="key_normal">#ff999999</color>
+    <color name="key_pressed">#ff4ABCE8</color>
+
+    <color name="hr_color">#ff707070</color>
+
+    <color name="reference_background">#ff000000</color>
+    <color name="reference_text">#ffA0A0A0</color>
+</resources>
